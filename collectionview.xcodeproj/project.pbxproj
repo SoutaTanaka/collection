@@ -16,6 +16,9 @@
 		056038601D113454003BA2CF /* collectionviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560385F1D113454003BA2CF /* collectionviewUITests.swift */; };
 		05A5E1F41D11632E0087A592 /* testing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05A5E1F31D11632E0087A592 /* testing.jpg */; };
 		05A5E1F61D1169A30087A592 /* tess.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A5E1F51D1169A30087A592 /* tess.png */; };
+		05A5E1FA1D1173B10087A592 /* m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A5E1F71D1173B10087A592 /* m1.png */; };
+		05A5E1FB1D1173B10087A592 /* m2.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A5E1F81D1173B10087A592 /* m2.png */; };
+		05A5E1FC1D1173B10087A592 /* m3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 05A5E1F91D1173B10087A592 /* m3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		056038611D113454003BA2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A5E1F31D11632E0087A592 /* testing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = testing.jpg; path = ../../../Downloads/testing.jpg; sourceTree = "<group>"; };
 		05A5E1F51D1169A30087A592 /* tess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tess.png; path = ../../../Downloads/tess.png; sourceTree = "<group>"; };
+		05A5E1F71D1173B10087A592 /* m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m1.png; path = ../../../Downloads/m1.png; sourceTree = "<group>"; };
+		05A5E1F81D1173B10087A592 /* m2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m2.png; path = ../../../Downloads/m2.png; sourceTree = "<group>"; };
+		05A5E1F91D1173B10087A592 /* m3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = m3.jpeg; path = ../../../Downloads/m3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,7 @@
 		0560383E1D113454003BA2CF /* collectionview */ = {
 			isa = PBXGroup;
 			children = (
-				05A5E1F31D11632E0087A592 /* testing.jpg */,
-				05A5E1F51D1169A30087A592 /* tess.png */,
+				05A5E1FD1D11753C0087A592 /* photo */,
 				0560383F1D113454003BA2CF /* AppDelegate.swift */,
 				056038411D113454003BA2CF /* ViewController.swift */,
 				056038431D113454003BA2CF /* Main.storyboard */,
@@ -129,6 +134,18 @@
 				056038611D113454003BA2CF /* Info.plist */,
 			);
 			path = collectionviewUITests;
+			sourceTree = "<group>";
+		};
+		05A5E1FD1D11753C0087A592 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				05A5E1F51D1169A30087A592 /* tess.png */,
+				05A5E1F71D1173B10087A592 /* m1.png */,
+				05A5E1F81D1173B10087A592 /* m2.png */,
+				05A5E1F91D1173B10087A592 /* m3.jpeg */,
+				05A5E1F31D11632E0087A592 /* testing.jpg */,
+			);
+			name = photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A5E1F41D11632E0087A592 /* testing.jpg in Resources */,
+				05A5E1FA1D1173B10087A592 /* m1.png in Resources */,
 				05A5E1F61D1169A30087A592 /* tess.png in Resources */,
+				05A5E1FC1D1173B10087A592 /* m3.jpeg in Resources */,
 				0560384A1D113454003BA2CF /* LaunchScreen.storyboard in Resources */,
 				056038471D113454003BA2CF /* Assets.xcassets in Resources */,
+				05A5E1FB1D1173B10087A592 /* m2.png in Resources */,
 				056038451D113454003BA2CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
